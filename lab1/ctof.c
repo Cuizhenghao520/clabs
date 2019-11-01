@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main( )
 {
     int fathr,celsius;
@@ -11,8 +11,8 @@ int main( )
      print("celsius fahr\n");
     celsius=lower;
     while(celsius <=upper){
-         fathr=[(9*celsius)/5]+32;
-         printf("%d\t%d\n",celsius,fahr );
+         fathr=(9*celsius)/5+32;
+         printf("%d\t%d\n",celsius,fathr );
          celsius=celsius+step;
         }
         return 0;
